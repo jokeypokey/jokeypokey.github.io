@@ -1,12 +1,18 @@
 <template>
   <div id="app">
+    <div class="centre"> 
+    
     <div class="start">
-      
+      <div>
+        <h1 class="title is-1">JokeyPokey.com</h1>
+        <p>My cool website</p>
+      </div>
     </div>
     <div class="end">
       <br />
       <br />
       <p>test</p>
+    </div>
     </div>
   </div>
 </template>
@@ -23,8 +29,20 @@ export default {
 </script>
 
 <style lang="scss">
+h1{
+  margin: 0;
+  padding-top: 35vw;
+  color:white;
+  font-size:5pc;
+  text-shadow: 0px 3px 9px rgba(145,19,28,1);
+}
+
+p{
+  font-size:vw;
+}
+
 .start{
-  height:80vh;
+  height:62vw;
 }
 
 .end{
@@ -32,14 +50,20 @@ export default {
   height:100vh;
 }
 
+.centre{
+  max-width: 162vh;
+   background-attachment: fixed;
+  background-image: url("./assets/background.jpg");
+  background-size:contain;
+  text-align: center;
+}
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  font-family: Verdana, Geneva, Tahoma, sans-serif,;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-attachment: fixed;
-  background-image: url("./assets/background.jpg");
-  text-align: center;
-  color: #2c3e50;
+ 
 }
 
 p {
