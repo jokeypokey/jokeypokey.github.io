@@ -1,5 +1,5 @@
 <template>
-  <b-navbar>
+  <b-navbar shadow="true" type="is-black">
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
@@ -27,13 +27,4 @@ export default {
 </script>
 
 <style lang="scss">
-.navbar{
-  background-color: rgb(20, 20, 20);
-  color: white;
-}
-
-.navbar-item:hover{
-  background-color: rgb(40, 40, 40);
-}
-
 </style>

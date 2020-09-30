@@ -32,7 +32,7 @@ h1 {
   //margin: 0;
   color: white;
   font-size: 9vmin;
-  text-shadow: 0px 3px 6px rgba(145, 19, 28, 0.8);
+  text-shadow: 0px 3px 2px rgba(145, 19, 28, 0.8);
 }
 
 p {
@@ -50,22 +50,12 @@ p {
   height: 100vh;
 }
 
-.centre {
-  margin: auto;
-  max-width: 145vh;
-  background-size: contain;
-  text-align: center;
-  -webkit-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.75);
-}
+
 
 
 .background-image {
   position: relative;
   display: inline;
-  // max-width: 100%;
-  height: auto;
 }
 
 p {
