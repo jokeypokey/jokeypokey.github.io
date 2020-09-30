@@ -27,4 +27,13 @@ export default {
 </script>
 
 <style lang="scss">
+.navbar{
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+
+.navbar-item:hover{
+  background-color: rgb(40, 40, 40);
+}
+
 </style>

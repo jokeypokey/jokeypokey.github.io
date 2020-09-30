@@ -15,6 +15,7 @@ Vue.use(Buefy, {
 })
 
 const routes= [
+  { path: '*', redirect: 'home' },
   {path: '/home', component: Home},
   {path: '/csgo', component: Csgo},
   // {path: '/art', component: Art},
