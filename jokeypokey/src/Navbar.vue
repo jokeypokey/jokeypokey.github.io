@@ -1,16 +1,18 @@
 <template>
-  <b-navbar shadow="true" type="is-black">
-    <template slot="brand">
-      <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-          alt="Lightweight UI components for Vue.js based on Bulma"
-        />
-      </b-navbar-item>
-    </template>
+  <b-navbar type="is-cooldark">
     <template slot="start">
-      <b-navbar-item href="home">Home</b-navbar-item>
-      <b-navbar-item href="csgo">Cs?</b-navbar-item>
+      <b-navbar-item href="home">
+        <img
+          src="./assets/knight_blue.png"
+          alt="blue knight"
+        />Home</b-navbar-item
+      >
+      <b-navbar-item href="csgo"
+        ><img src="./assets/cs.png" alt="cs" />Counter-Strike</b-navbar-item
+      >
+      <b-navbar-item href="art"
+        ><img src="./assets/art.png" alt="art" />Art</b-navbar-item
+      >
     </template>
   </b-navbar>
 </template>
@@ -20,9 +22,9 @@ export default {
   name: "Navbar",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: "Welcome to Your Vue.js App",
     };
-  }
+  },
 };
 </script>
 

@@ -3,11 +3,12 @@ import App from './App.vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 
-import 'bulma/css/bulma.css';
+import './assets/scss/main.scss';
 import VueRouter from 'vue-router'
 
 import Home from "./Home";
 import Csgo from "./Csgo"
+import Art from "./Art"
 
 Vue.use(VueRouter)
 Vue.use(Buefy, {
@@ -18,7 +19,7 @@ const routes= [
   { path: '*', redirect: 'home' },
   {path: '/home', component: Home},
   {path: '/csgo', component: Csgo},
-  // {path: '/art', component: Art},
+  {path: '/art', component: Art},
   // {path: '/projects', component: Projects}
 ]
 

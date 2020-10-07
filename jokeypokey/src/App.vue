@@ -26,7 +26,7 @@ export default {
 
 #app {
   color: #2c3e50;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
