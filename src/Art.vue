@@ -2,7 +2,7 @@
   <div class="centre">
     <h1 class="title is-1">Hello am artist</h1>
     <ul>
-        <li> art coming soon</li>       
+        <li> art coming soon : ></li>       
     </ul>
   
   </div>
