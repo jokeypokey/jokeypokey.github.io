@@ -33,7 +33,7 @@ $RECYCLE.BIN/
 note.txt
 
 .DS_Store
-node_modules/
+# node_modules/ commented out forodeploy
 dist/
 npm-debug.log
 yarn-error.log
