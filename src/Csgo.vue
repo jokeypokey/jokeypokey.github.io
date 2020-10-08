@@ -2,7 +2,7 @@
   <div class="centre">
     <h1 class="title is-1">Official Drinking CS:GO rules</h1>
     <ul>
-        <li>Death - 1 drink</li>
+        <li>Death - 1 drink </li>
         <li> MVP - Nominate 1 drink</li>
         <li> Win a 1vX clutch - Nominate X drinks</li>
         <li> Get a knife kill - Everyone else drinks</li>
